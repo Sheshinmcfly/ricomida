@@ -1,0 +1,246 @@
+/*Inicio Global*/
+* {
+    color: #373A3C;
+}
+
+hr {
+    height: 0.125rem !important;
+    margin-top: 2rem !important;
+}
+
+/*Fin Global*/
+
+/*Inicio navbar*/
+nav h1, footer * {
+    font-family: 'Lobster', sans-serif;
+    font-weight: 400;
+    font-size: 2.313rem;
+    color: #FFFFFF;
+}
+
+nav {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+/*Fin navbar*/
+
+/*Inicio hero*/
+#inicio *, #recetasRelacionadas *, #contacto h1 {
+    font-family: 'Cabin', sans-serif;
+    font-weight: 700;
+}
+
+#inicio h1, #inicio p, #recetasRelacionadas *, #contacto h1 {
+    text-transform: uppercase;
+}
+
+/*Fin hero*/
+
+/*Inicio recetas*/
+#recetas {
+    font-family: 'Cabin', sans-serif;
+    font-weight: 400;
+    font-size: 1.25rem;
+}
+
+#recetas h4 {
+    text-transform: uppercase;
+    text-decoration-line: underline;
+    text-underline-offset: 0.5rem;
+}
+
+/*Fin recetas*/
+
+/*Inicio recetasRelacionadas*/
+#recetasRelacionadas p {
+    font-weight: 400 !important;
+    text-transform: initial !important;
+}
+
+/*Fin recetasRelacionadas*/
+
+/*Inicio contacto*/
+#contacto * {
+    color: #FFFFFF !important;
+}
+
+#contacto h2 {
+    font-family: 'Cabin', sans-serif;
+    font-weight: 400;
+    font-size: 1.875rem;
+    text-transform: lowercase;
+}
+
+#contacto span {
+    font-family: 'Lobster', sans-serif;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+#contacto button {
+    background-color: transparent;
+    padding-inline: 7.5%;
+}
+
+#contacto {
+    background-color: #DC3545;
+    height: 33.375rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Fin contacto*/
+
+/*Inicio footer*/
+footer {
+    height: 7.938rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Fin footer*/
+
+/*Inicio clases*/
+.bg-grey {
+    background-color: #373A3C;
+}
+
+.boton {
+    margin-left: 43%;
+}
+
+.pos {
+    position: initial;
+    margin-inline-end: 26%;
+    margin-block-start: 2%;
+    margin-block-end: -1%;
+}
+
+/*Fin clases*/
+
+
+@media (min-width: 992px) {
+
+    #botones>div {
+        max-width: fit-content;
+    }
+
+    .margin-r {
+        margin-right: 9%;
+    }
+
+    .margin-container {
+        margin-left: 9.375rem;
+        margin-right: 11rem;
+    }
+
+    #inicio {
+        display: -webkit-box;
+    }
+
+    #inicio h1 {
+        font-size: 2.5rem;
+    }
+
+    #inicio p {
+        font-size: 1.25rem;
+    }
+
+    #inicio img {
+        width: 30.125rem;
+        height: 24rem;
+        margin-top: 1.5rem;
+        margin-right: 1rem;
+    }
+
+    #inicio>div>hr {
+        width: 115%;
+
+    }
+
+    .texto {
+        width: 26.563rem;
+        height: 12.563rem;
+        margin-top: 3.531rem;
+    }
+
+    #carousel img {
+        width: 14.563rem;
+        height: 10.625rem;
+    }
+
+    #carousel hr, #recetas hr {
+        width: 89%;
+    }
+
+    #carouselExampleIndicators>div.carousel-indicators>button {
+        width: 13px;
+        height: 1px;
+        padding: 6px 0px;
+        border-radius: 100%;
+        text-align: center;
+        font-size: 12px;
+        line-height: 1.42857;
+        background-color: #373A3C;
+    }
+
+    #recetas>div>div:nth-child(1) {
+        max-width: max-content;
+        margin-inline-end: 14%;
+    }
+
+    #recetas>div>div:nth-child(2) {
+        max-width: 47%
+    }
+}
+
+@media (max-width: 768px) {
+
+    #botones {
+        justify-content: center;
+    }
+
+    #contacto h1 {
+        font-size: 1.875rem;
+    }
+
+    #contacto h2 {
+        font-size: 1.25rem;
+    }
+
+    #contacto>div>button {
+        width: inherit;
+    }
+
+    .margin-container-sm {
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+
+    .p-general-sm {
+        padding-left: 8%;
+        padding-right: 8%;
+    }
+
+    #inicio>div {
+        margin: 8%;
+    }
+
+    #botones>div>button {
+        font-size: 85% !important;
+        padding-block: 7% !important;
+        padding-inline: 6% !important;
+        margin-block-start: 2% !important;
+    }
+
+
+    #recetas, #recetasRelacionadas {
+        max-width: fit-content;
+    }
+
+}
